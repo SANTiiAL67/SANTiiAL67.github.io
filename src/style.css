@@ -1,0 +1,245 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    color: #333;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Estilos para la sección de jugadores */
+#galacticos {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.jugador {
+    margin-bottom: 10px;
+}
+
+/* Estilos para la sección de interacciones */
+#interacciones {
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+#escudo {
+    width: 200px;
+}
+
+#escudo-section img {
+    width: 200px;
+    height: auto;
+}
+
+/* Estilos para la sección del escudo */
+#escudo-section {
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+/* Estilos para la sección de historia */
+#historia {
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333; /* Agrega color del texto */
+}
+
+#historia p {
+    margin-bottom: 10px;
+}
+
+#historia a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#historia a:hover {
+    background-color: #555;
+}
+
+/* Estilos para la sección de la página */
+#pagina {
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333; /* Agrega color del texto */
+}
+/* Estilos para el modo oscuro */
+body.modo-oscuro h1 {
+    color: #ffffff; /* Agrega color del texto en modo oscuro */
+}
+body.modo-oscuro #escudo-section h2 {
+    color: #ffffff; /* Agrega color del texto en modo oscuro */
+}
+body.modo-oscuro #jugadores-lista {
+    color: #000000; /* Agrega color del texto en modo oscuro */
+}
+
+body.modo-oscuro {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos para la sección de origen */
+#origen {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Estilos para la sección de legado */
+#legado {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Estilos para la sección de más información */
+#mas-informacion {
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    color: #333; /* Agrega color del texto */
+}
+
+#mas-informacion p {
+    margin-bottom: 10px;
+}
+
+#mas-informacion a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#mas-informacion a:hover {
+    background-color: #555;
+}
+#origen img {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: auto;
+}
+#volver {
+    text-align: center;
+}
+/* Estilos para la sección de comentarios */
+#comentarios {
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#comentarios h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+#comment-form {
+    margin-bottom: 10px;
+}
+
+#comment-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#comment-form input[type="text"],
+#comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+#comment-form button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#comment-list {
+    margin-top: 20px;
+}
+
+.comment {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
